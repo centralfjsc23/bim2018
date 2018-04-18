@@ -1,0 +1,54 @@
+<header class="header-area stricky">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="outer-box clearfix">
+                    <!--Start logo-->
+                    <div class="logo">
+                        <a href="/">
+                            <img src="/images/bim/logo.png" alt="Awesome Logo">
+                        </a>
+                    </div>
+                    <!--End logo-->
+                    <!--Start mainmenu-->
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li class="current"><a href="/">Inicio</a></li>
+                                  <li class="dropdown"><a href="">Cultura BIM</a>
+                                    <ul>
+                                        <li><a href="<%= "/#{I18n.locale}/cultura_bim/empresa" %>">SINOVA&BIM</a></li>
+                                        <li><a href="<%= "/#{I18n.locale}/cultura_bim/principios_estrategicos" %>">CULTURA BIM</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="">Servicios</a>
+                                    <ul>
+                                        <li><a href="<%= "/#{I18n.locale}/productos/modelacion_bim" %>">Servicios</a></li>
+                                      <!--  <li><a href="<%= "/#{I18n.locale}/productos/bim_management" %>">BIM Management</a></li> -->
+                                    <!--    <li><a href="<%= "/#{I18n.locale}/productos/implementa_bim" %>">Implementa BIM</a></li> -->
+                                    <!--    <li><a href="<%= "/#{I18n.locale}/productos/pendiente" %>">Pendiente</a></li> -->
+                                    </ul>
+                                </li>
+                                <li class=""><a href="<%= "/#{I18n.locale}/proyectos/proyectos" %>">Proyectos</a></li>
+                                <li class="dropdown"><a href="">Contacto</a>
+                                    <ul>
+                                    <!--    <li><a href="<%= "/#{I18n.locale}/contacto/colabora" %>">Colabora con Nosotros</a></li> -->
+                                        <li><a href="<%= "/#{I18n.locale}/contacto/contacto" %>">Contacto</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!--End mainmenu-->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
