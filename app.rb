@@ -81,7 +81,7 @@ get '/:locale/productos/modelacion_bim' do
 
 get '/:locale/productos/bim_management' do
   @titulo = 'Bim'
-  @tituloEn = 'Bum'
+  @tituloEn = 'Bim'
   @current = 'productos'
   erb :"#{I18n.locale}/vistas/productos/bim_management", :layout => ('layouts/layout_interior').to_sym
   end
