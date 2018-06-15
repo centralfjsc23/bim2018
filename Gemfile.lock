@@ -1,5 +1,6 @@
 GEM
   remote: http://rubygems.org/
+  ruby "2.4.3"
   specs:
     backports (3.6.8)
     better_errors (2.1.1)
