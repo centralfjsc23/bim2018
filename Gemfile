@@ -1,4 +1,5 @@
-source 'http://rubygems.org'
+source
+ruby "2.4.3"
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'i18n'
