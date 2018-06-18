@@ -1,5 +1,4 @@
 source
-ruby "2.3.7"
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'i18n'
